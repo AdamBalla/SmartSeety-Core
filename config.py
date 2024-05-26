@@ -1,0 +1,24 @@
+RESOLUTION = '800x480'
+BACKGROUND_COLOR = '#235789'
+TEXT_COLOR_PRIMARY = '#f1d302'
+BUTTON_BACKGROUND_COLOR = '#0032b1'
+BUTTON_ONCLICK_BACKGROUND_COLOR = '#001a92'
+BUTTON_TEXT_COLOR = '#fff'
+AZURE_IOT_HUB_CONNECTION_STRING = "HostName=SmartSeetyIoTHub.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=qR+zJ820H5LDW8uO5FR7j0EeXvGd1ZNBIZAYvkRDyRc="
+AZURE_IOT_HUB_PATH_TO_ROOT_CERT = "cert.cer"
+AZURE_IOT_HUB_SAS_TOKEN = "SharedAccessSignature sr=SmartSeetyIoTHub.azure-devices.net&sig=lH%2blkC8Da1Ncy0YUQtEObVF1JIkDKUkU2JwNAM9z99Q%3d&se=1587236992&skn=iothubowner"
+AZURE_IOT_HUB_NAME = "SmartSeetyIoTHub"
+MQTT_HOST = AZURE_IOT_HUB_NAME + ".azure-devices.net"
+MQTT_PORT = 8883
+FIREBASE_DATABASE_URL = 'https://smart-seety.firebaseio.com/'
+FIREBASE_API_KEY = 'AIzaSyDkARvlmhW0KnVdScei0TmlwMsafiqTxjo'
+FIREBASE_AUTH_URL = 'smart-seety.firebaseapp.com'
+FIREBASE_STORAGE_URL = 'smart-seety.appspot.com'
+FIREBASE_SERVICE_ACCOUNT_PATH = 'firebase-service-account-key.json'
+USE_MOCK_SENSORS = True
+USE_MOCK_CAMERA = True
+USE_MOCK_MQTT = False
+NUMBER_OF_MESSAGE_UPDATES_PER_SECOND = 10
+TOAST_DURATION_IN_SECONDS = 3
+ENABLE_FULL_SCREEN_MODE = False
+NUMBER_OF_STATUS_UPDATES_PER_SECOND = 0.5
